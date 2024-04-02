@@ -9,8 +9,8 @@ function App() {
     <>
       <div className="flex">
         <Suspense fallback={<p>Loading...</p>}>
-          <FetchMethod />
-          <Axios />
+          {/* <FetchMethod /> */}
+          {/* <Axios /> */}
           <UseSWR />
         </Suspense>
       </div>
