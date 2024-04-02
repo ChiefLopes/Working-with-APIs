@@ -13,7 +13,7 @@ const Axios = () => {
   return (
     <div>
       {data.length > 0 ? ( // Check if data is not empty before rendering
-        <img src={data} alt="" width={400} height={300} />
+        <img src={data} alt="" width={300} height={300} />
       ) : (
         <p>No data available</p>
       )}
