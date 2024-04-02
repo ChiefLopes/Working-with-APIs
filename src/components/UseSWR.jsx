@@ -4,7 +4,7 @@ import useSWR from "swr";
 const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 const UseSWR = () => {
-   const {data} = useSWR("https://dog.ceo/api/breeds/image/random", fetcher);
+   const {data} = useSWR("https://dog.ceo/api/breeds/image/random", fetcher, {suspense: true});
 
   return (
     <div>

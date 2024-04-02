@@ -10,7 +10,8 @@ const FetchMethod = () => {
         console.log(dataf);
         setData(dataf.message);
       })
-      .catch((error) => console.log("there is an error", error.message)); // Concatenating custom message with server error message
+      .catch((error) => console.log("there is an error", error.message))// Concatenating custom message with server error message
+
   }, []);
   return (
     <div>
