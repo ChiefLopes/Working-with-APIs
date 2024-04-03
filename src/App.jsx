@@ -10,9 +10,9 @@ function App() {
     <>
       <div className="grid grid-cols-2 gap-2">
         <Suspense fallback={<p>Loading...</p>}>
-          <FetchMethod />
-          <Axios />
-          <UseSWR />
+          {/* <FetchMethod /> */}
+          {/* <Axios /> */}
+          {/* <UseSWR /> */}
           <ReactQuery />
         </Suspense>
       </div>
